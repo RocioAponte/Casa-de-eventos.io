@@ -1,0 +1,67 @@
+body{
+    background-image: url(fondo1.jpeg);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    font-size: 22px;
+    text-shadow: 2px 2px 4px rgb(110, 12, 96);
+    border-radius: 10x;
+    padding-left: 10px;
+}
+aside{
+        flex: 10px;
+        background-color: rgb(240, 168, 186);
+        padding: 10px;
+        border-top-width: 32px;
+        border-radius: 20px;
+}
+.from {  
+    background-color: rgba(12, 12, 12, 0.8); /* Color de fondo con transparencia */
+    padding: 80px;
+    width: 410px;
+    padding-left: 93px;
+    padding-right: 0px;
+    border-top-width: 32px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+}
+#fotos1{
+    flex: 50%;
+    padding: 5px;
+}
+#fotos1 img{
+    padding: 5px;
+}
+#fotos1 img{
+    padding: 5px;
+}
+@media (max-width: 600px){
+    .column{
+        flex: 100%;
+    } 
+}
+footer{
+    background-color: rgb(12, 12, 12, 0.8);
+    color: rgb(255, 255, 255);
+    direction: initial ;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 18px;
+    height: 280px;
+    position: relative;
+    unicode-bidi: isolate;
+    width: 1329px;
+    z-index: 0;
+    -webkit-font-smoothing: antialiased;
+}
